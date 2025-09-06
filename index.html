@@ -3,10 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EsTeam</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  
+  <!-- SEO Meta Tags -->
+  <title>EsTeam - تیم توسعه وب و برنامه نویسی | طراحی سایت حرفه ای</title>
+  <meta name="description" content="تیم EsTeam متخصص در طراحی و توسعه وب سایت، برنامه نویسی Python، Django، Flask، HTML، CSS، JavaScript. نمونه کارهای حرفه ای و خدمات توسعه وب مدرن.">
+  <meta name="keywords" content="EsTeam, تیم توسعه وب, برنامه نویسی, طراحی سایت, Python, Django, Flask, HTML, CSS, JavaScript, Bootstrap, توسعه وب, پرتفولیو, نمونه کار">
+  <meta name="author" content="احسان اسماعیلی - EsTeam">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Persian">
+  <meta name="revisit-after" content="7 days">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="EsTeam - تیم توسعه وب و برنامه نویسی حرفه ای">
+  <meta property="og:description" content="تیم EsTeam متخصص در طراحی و توسعه وب سایت، برنامه نویسی Python، Django، Flask. نمونه کارهای حرفه ای و خدمات توسعه وب مدرن.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://esteamdev.ir">
+  <meta property="og:site_name" content="EsTeam">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:image" content="https://esteamdev.ir/project1.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EsTeam - تیم توسعه وب و برنامه نویسی">
+  <meta name="twitter:description" content="تیم EsTeam متخصص در طراحی و توسعه وب سایت، برنامه نویسی Python، Django، Flask. نمونه کارهای حرفه ای.">
+  <meta name="twitter:image" content="https://esteamdev.ir/project1.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://esteamdev.ir">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Gear.png">
+  <link rel="apple-touch-icon" href="Gear.png">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  
+  <!-- Critical CSS inline for faster loading -->
+  <style>
+    /* Critical CSS for above-the-fold content */
+    body { font-family: 'Vazirmatn', sans-serif; margin: 0; padding: 0; }
+    .navbar { background: rgba(10,10,10,0.95); border-bottom: 1px solid #00ff88; }
+    .hero-section { min-height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+    .hero-brand { font-size: 8rem; font-weight: 900; color: #00ff88; }
+  </style>
+  
+  <!-- Stylesheets with async loading -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+  
+  <!-- Fallback for browsers that don't support media="print" -->
+  <noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </noscript>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "EsTeam",
+    "alternateName": "تیم EsTeam",
+    "url": "https://esteamdev.ir",
+    "logo": "https://esteamdev.ir/Gear.png",
+    "description": "تیم EsTeam متخصص در طراحی و توسعه وب سایت، برنامه نویسی Python، Django، Flask، HTML، CSS، JavaScript",
+    "founder": {
+      "@type": "Person",
+      "name": "احسان اسماعیلی",
+      "jobTitle": "برنامه نویس و توسعه دهنده وب"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IR"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "esteam.website.dev@gmail.com",
+      "contactType": "customer service"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/cpi-tiger-a33b5637b/",
+      "https://github.com/CPI-TIGER",
+      "https://discord.gg/wj2ReD8S"
+    ],
+    "service": [
+      {
+        "@type": "Service",
+        "name": "طراحی و توسعه وب سایت",
+        "description": "طراحی و توسعه وب سایت های مدرن، ریسپانسیو و واکنش گرا"
+      },
+      {
+        "@type": "Service", 
+        "name": "برنامه نویسی Python",
+        "description": "توسعه اپلیکیشن های وب با Python، Django و Flask"
+      },
+      {
+        "@type": "Service",
+        "name": "طراحی رابط کاربری",
+        "description": "طراحی رابط کاربری مدرن با HTML، CSS، JavaScript و Bootstrap"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Header/Navbar -->
@@ -44,9 +149,20 @@
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="container">
-      <div class="hero-brand">EsTeam</div>
-      <div class="hero-subtitle">من احسان اسماعیلی هستم برنامه نویس و توسعه دهنده وب و مسلط به <b style="color:#00ff88">Html</b>, <b style="color:#00ff88">Css</b>, <b style="color:#00ff88">Js</b>, <b style="color:#00ff88">Python</b>, <b style="color:#00ff88">Flask</b>, <b style="color:#00ff88">Django</b>, <b style="color:#00ff88">Tkinter</b>, <b style="color:#00ff88">SQL</b>, <b style="color:#00ff88">Bootstrap 4,5</b> می باشم.
-        <p>من با کمک تیم خود با استفاده از جدیدترین تکنولوژی ها و متدهای روز دنیا, وبسایت هایی مدرن, ریسپانسیو, واکنش گرا و چشم نواز خلق میکنیم.</p>
+      <h1 class="hero-brand">EsTeam - تیم توسعه وب و برنامه نویسی</h1>
+      <div class="hero-subtitle">
+        <h2>تیم EsTeam - متخصصان طراحی و توسعه وب سایت</h2>
+        <p>من <strong>احسان اسماعیلی</strong> هستم، بنیانگذار و رهبر <strong>تیم EsTeam</strong> - تیم توسعه وب و برنامه نویسی حرفه ای. ما متخصص در طراحی و توسعه وب سایت های مدرن، ریسپانسیو و واکنش گرا هستیم.</p>
+        
+        <h3>مهارت های تیم EsTeam در برنامه نویسی:</h3>
+        <ul>
+          <li><strong>فرانت اند:</strong> <span style="color:#00ff88">HTML5</span>, <span style="color:#00ff88">CSS3</span>, <span style="color:#00ff88">JavaScript</span>, <span style="color:#00ff88">Bootstrap 4 & 5</span></li>
+          <li><strong>بک اند:</strong> <span style="color:#00ff88">Python</span>, <span style="color:#00ff88">Django</span>, <span style="color:#00ff88">Flask</span></li>
+          <li><strong>پایگاه داده:</strong> <span style="color:#00ff88">SQLite</span>, <span style="color:#00ff88">SQL</span></li>
+          <li><strong>اپلیکیشن دسکتاپ:</strong> <span style="color:#00ff88">Tkinter</span></li>
+        </ul>
+        
+        <p><strong>تیم EsTeam</strong> با استفاده از جدیدترین تکنولوژی های روز دنیا و متدهای مدرن برنامه نویسی، وب سایت هایی حرفه ای، ریسپانسیو، واکنش گرا و چشم نواز برای مشتریان خود طراحی و توسعه می‌دهد.</p>
       </div>
     </div>
   </section>
@@ -54,34 +170,38 @@
   <div class="container">
     <!-- Portfolio Section -->
     <div class="portfolio-header" id="portfolio">
-      <h1>EsTeam Portfolio</h1>
-      <p>نمونه کارهای من در زمینه طراحی و توسعه وب</p>
+      <h2>نمونه کارهای تیم EsTeam - پرتفولیو طراحی و توسعه وب</h2>
+      <p>مجموعه ای از بهترین پروژه های طراحی و توسعه وب سایت توسط <strong>تیم EsTeam</strong> - متخصصان برنامه نویسی و توسعه وب</p>
     </div>
     <div class="row g-4">
       <!-- پروژه 1 -->
       <div class="col-md-6 col-lg-3">
         <div class="card portfolio-card">
-          <img src="project1.png" class="portfolio-img" alt="پروژه اول">
+          <img src="project1.png" class="portfolio-img" alt="پروژه فروشگاه آنلاین کفش - تیم EsTeam">
           <div class="portfolio-body">
-            <div class="portfolio-title">Gallery Baran</div>
-            <div class="portfolio-desc"><b style="color:#00ff88">سایت فروشگاه آنلاین کفش</b>
-              <p><b style="color:#00ff88">Baran Gallery</b></p>
-              <p></p>
-              <b style="color:#00ff88">هدف پروژه:</b> استفاده سریع و راحت از سایت برای خرید کفش و امکان ثبت سفارش خرید در هر ساعت از شبانه روز به صورت آنلاین و غیر حضوری
-              <p></p>
-              <b style="color:#00ff88">تکنولوژی های استفاده شده:</b>
-              <p></p>
-              <b style="color:#00ff88">فرانت اند:</b> Html, css, js, Bootstrap5<p></p>
+            <h3 class="portfolio-title">Gallery Baran - فروشگاه آنلاین کفش</h3>
+            <div class="portfolio-desc">
+              <h4><b style="color:#00ff88">سایت فروشگاه آنلاین کفش</b></h4>
+              <p><strong>پروژه:</strong> <b style="color:#00ff88">Baran Gallery</b> - طراحی و توسعه فروشگاه آنلاین</p>
               
-              <b style="color:#00ff88">بک اند:</b> Python فریم ورک Flask<p></p>
+              <h5><b style="color:#00ff88">هدف پروژه:</b></h5>
+              <p>طراحی و توسعه یک فروشگاه آنلاین کفش با قابلیت خرید آسان و سریع. امکان ثبت سفارش خرید در هر ساعت از شبانه روز به صورت آنلاین و غیر حضوری توسط <strong>تیم EsTeam</strong>.</p>
               
-              <b style="color:#00ff88">ابزار های مکمل:</b> SQLite<p></p>
+              <h5><b style="color:#00ff88">تکنولوژی های استفاده شده توسط تیم EsTeam:</b></h5>
+              <ul>
+                <li><b style="color:#00ff88">فرانت اند:</b> HTML5, CSS3, JavaScript, Bootstrap 5</li>
+                <li><b style="color:#00ff88">بک اند:</b> Python با فریم ورک Flask</li>
+                <li><b style="color:#00ff88">پایگاه داده:</b> SQLite</li>
+              </ul>
               
-              دارای بخش پشتیبانی و ارسال تیکت
-              
-              دارای بخش بازخورد
-              
-              دارای سیستم اعمال تخفیف بر روی محصولات</div>
+              <h5><b style="color:#00ff88">ویژگی های پروژه:</b></h5>
+              <ul>
+                <li>سیستم پشتیبانی و ارسال تیکت</li>
+                <li>بخش بازخورد مشتریان</li>
+                <li>سیستم اعمال تخفیف بر روی محصولات</li>
+                <li>طراحی ریسپانسیو و واکنش گرا</li>
+              </ul>
+            </div>
             <a href="https://uupload.ir/view/gallerybaran_kigr.mp4" class="portfolio-link" target="_blank">مشاهده پروژه</a>
           </div>
         </div>
@@ -89,22 +209,30 @@
       <!-- پروژه 2 -->
       <div class="col-md-6 col-lg-3">
         <div class="card portfolio-card">
-          <img src="project2.png" class="portfolio-img" alt="پروژه دوم">
+          <img src="project2.png" class="portfolio-img" alt="پروژه فروشگاه آنلاین کیف - تیم EsTeam">
           <div class="portfolio-body">
-            <div class="portfolio-title">Bag Shop</div>
-            <div class="portfolio-desc"><b style="color:#00ff88"> سایت فروشگاه آنلاین کیف</b>
-              <p style="color:#00ff88"><b>Bag Shop</b></p>
-              <p></p>
-              <b style="color:#00ff88">هدف پروژه:</b> استفاده سریع و راحت از سایت برای خرید کیف و امکان ثبت سفارش خرید در هر ساعت از شبانه روز به صورت آنلاین و غیر حضوری
-              <p></p>
-              <b style="color:#00ff88">تکنولوژی های استفاده شده:</b>
-              <p></p>
-              <b style="color:#00ff88">فرانت اند:</b> Html, css, js, Bootstrap5<p></p>
-
-              <b style="color:#00ff88">بک اند:</b> Python فریم ورک Flask<p></p>
+            <h3 class="portfolio-title">Bag Shop - فروشگاه آنلاین کیف</h3>
+            <div class="portfolio-desc">
+              <h4><b style="color:#00ff88">سایت فروشگاه آنلاین کیف</b></h4>
+              <p><strong>پروژه:</strong> <b style="color:#00ff88">Bag Shop</b> - طراحی و توسعه فروشگاه آنلاین کیف</p>
               
-              <b style="color:#00ff88">ابزار های مکمل:</b> SQLite<p></p>
-              <b>دارای سیستم اعمال تخفیف بر روی محصولات</b></div>
+              <h5><b style="color:#00ff88">هدف پروژه:</b></h5>
+              <p>طراحی و توسعه یک فروشگاه آنلاین کیف با قابلیت خرید آسان و سریع. امکان ثبت سفارش خرید در هر ساعت از شبانه روز به صورت آنلاین و غیر حضوری توسط <strong>تیم EsTeam</strong>.</p>
+              
+              <h5><b style="color:#00ff88">تکنولوژی های استفاده شده توسط تیم EsTeam:</b></h5>
+              <ul>
+                <li><b style="color:#00ff88">فرانت اند:</b> HTML5, CSS3, JavaScript, Bootstrap 5</li>
+                <li><b style="color:#00ff88">بک اند:</b> Python با فریم ورک Flask</li>
+                <li><b style="color:#00ff88">پایگاه داده:</b> SQLite</li>
+              </ul>
+              
+              <h5><b style="color:#00ff88">ویژگی های پروژه:</b></h5>
+              <ul>
+                <li>سیستم اعمال تخفیف بر روی محصولات</li>
+                <li>طراحی ریسپانسیو و واکنش گرا</li>
+                <li>رابط کاربری مدرن و کاربرپسند</li>
+              </ul>
+            </div>
             <a href="https://uupload.ir/view/bagshop_if3t.mp4" class="portfolio-link" target="_blank">مشاهده پروژه</a>
           </div>
         </div>
@@ -112,23 +240,31 @@
       <!-- پروژه 3 -->
       <div class="col-md-6 col-lg-3">
         <div class="card portfolio-card">
-          <img src="project3.png" class="portfolio-img" alt="پروژه سوم">
+          <img src="project3.png" class="portfolio-img" alt="پروژه سایت پرتفولیو - تیم EsTeam">
           <div class="portfolio-body">
-            <div class="portfolio-title">EsSite</div>
-            <div class="portfolio-desc"><b style="color:#00ff88">سایت پرتفولیو</b>
-              <p><b style="color:#00ff88">Es Team</b></p>
-              <b style="color:#00ff88">هدف پروژه: </b> طراحی و توسعه یک سایت پرتفولیو برای نمایش نمونه کارها.
-              <p></p>
-              <b style="color:#00ff88">تکنولوژی های استفاده شده:</b>
-              <p></p>
-              <b style="color:#00ff88">فرانت اند: </b>Html, css, js, Bootstrap5
-              <p></p>
-              <b style="color:#00ff88">بک اند: </b>Python فریم ورک DJango
-              <p></p>
-              <b style="color:#00ff88">ابزار های مکمل: </b> SQLite
-              <p></p>
-              <b> دارای طراحی رابط کاربری جذاب و کاربرپسند برای وب سایت,</b>
-              <b> بهینه سازی وب سایت برای سرعت و عملکرد بهتر</b></div>
+            <h3 class="portfolio-title">EsSite - سایت پرتفولیو تیم EsTeam</h3>
+            <div class="portfolio-desc">
+              <h4><b style="color:#00ff88">سایت پرتفولیو و نمونه کار</b></h4>
+              <p><strong>پروژه:</strong> <b style="color:#00ff88">EsSite</b> - طراحی و توسعه سایت پرتفولیو</p>
+              
+              <h5><b style="color:#00ff88">هدف پروژه:</b></h5>
+              <p>طراحی و توسعه یک سایت پرتفولیو حرفه ای برای نمایش نمونه کارها و مهارت های <strong>تیم EsTeam</strong> در زمینه طراحی و توسعه وب.</p>
+              
+              <h5><b style="color:#00ff88">تکنولوژی های استفاده شده توسط تیم EsTeam:</b></h5>
+              <ul>
+                <li><b style="color:#00ff88">فرانت اند:</b> HTML5, CSS3, JavaScript, Bootstrap 5</li>
+                <li><b style="color:#00ff88">بک اند:</b> Python با فریم ورک Django</li>
+                <li><b style="color:#00ff88">پایگاه داده:</b> SQLite</li>
+              </ul>
+              
+              <h5><b style="color:#00ff88">ویژگی های پروژه:</b></h5>
+              <ul>
+                <li>طراحی رابط کاربری جذاب و کاربرپسند</li>
+                <li>بهینه‌سازی وب سایت برای سرعت و عملکرد بهتر</li>
+                <li>طراحی ریسپانسیو و واکنش گرا</li>
+                <li>نمایش حرفه ای نمونه کارها</li>
+              </ul>
+            </div>
             <a href="https://uupload.ir/view/essite_gxlo.mp4" class="portfolio-link" target="_blank">مشاهده پروژه</a>
           </div>
         </div>
@@ -136,19 +272,29 @@
       <!-- پروژه 4 -->
       <div class="col-md-6 col-lg-3">
         <div class="card portfolio-card">
-          <img src="project4.png" class="portfolio-img" alt="پروژه چهارم">
+          <img src="project4.png" class="portfolio-img" alt="پروژه سایت معرفی سرور دیسکورد - تیم EsTeam">
           <div class="portfolio-body">
-            <div class="portfolio-title">x.Mine.x</div>
-            <div class="portfolio-desc"><b style="color:#00ff88">سایت معرفی سرور دیسکورد</b>
-              <p><b style="color:#00ff88">x.Mine.x</b></p>
-              <b style="color:#00ff88">هدف پروژه:</b> ایجاد تبلیغ برای افزایش اعضای سرور و معرفی چگونگی عملکرد سرور
-              <p></p>
-              <b style="color:#00ff88">تکنولوژی های استفاده شده:</b>
-              <p></p>
-              <b style="color:#00ff88">فرانت اند:</b> Html, css, js, Bootstrap5
-              <p></p>
-              <b>طراحی رابط کاربری جذاب و کاربرپسند برای وب سایت</b>
-              <b>بهینه‌سازی وب سایت برای سرعت و عملکرد بهتر</b></div>
+            <h3 class="portfolio-title">x.Mine.x - سایت معرفی سرور دیسکورد</h3>
+            <div class="portfolio-desc">
+              <h4><b style="color:#00ff88">سایت معرفی سرور دیسکورد</b></h4>
+              <p><strong>پروژه:</strong> <b style="color:#00ff88">x.Mine.x</b> - طراحی و توسعه سایت معرفی سرور</p>
+              
+              <h5><b style="color:#00ff88">هدف پروژه:</b></h5>
+              <p>طراحی و توسعه یک سایت معرفی و تبلیغاتی برای افزایش اعضای سرور دیسکورد و معرفی چگونگی عملکرد سرور توسط <strong>تیم EsTeam</strong>.</p>
+              
+              <h5><b style="color:#00ff88">تکنولوژی های استفاده شده توسط تیم EsTeam:</b></h5>
+              <ul>
+                <li><b style="color:#00ff88">فرانت اند:</b> HTML5, CSS3, JavaScript, Bootstrap 5</li>
+              </ul>
+              
+              <h5><b style="color:#00ff88">ویژگی های پروژه:</b></h5>
+              <ul>
+                <li>طراحی رابط کاربری جذاب و کاربرپسند</li>
+                <li>بهینه‌سازی وب سایت برای سرعت و عملکرد بهتر</li>
+                <li>طراحی ریسپانسیو و واکنش گرا</li>
+                <li>رابط کاربری مدرن برای معرفی سرور</li>
+              </ul>
+            </div>
             <a href="https://cpi-tiger.github.io/x.Mine.x/" class="portfolio-link" target="_blank">مشاهده پروژه</a>
           </div>
         </div>
@@ -171,7 +317,7 @@
             <span class="navbar-brand" style="font-size:2rem;">EsTeam</span>
           </div>
           <div class="footer-about mb-2">
-            <p class="mb-1">پرتفولیو EsTeam<br>طراحی و توسعه وب با مدرن‌ترین تکنولوژی‌ها و بهترین تجربه کاربری</p>
+            <p class="mb-1"><strong>پرتفولیو تیم EsTeam</strong><br>طراحی و توسعه وب سایت با مدرن‌ترین تکنولوژی‌های برنامه نویسی و بهترین تجربه کاربری توسط متخصصان توسعه وب</p>
           </div>
           <div class="footer-links">
             <a href="index.html#portfolio" class="footer-link">نمونه کارها</a> |
@@ -190,8 +336,37 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <!-- JavaScript with async loading for better performance -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" async></script>
+  <script src="script.js" async></script>
+  
+  <!-- Performance optimization script -->
+  <script>
+    // Preload critical resources
+    const preloadLink = document.createElement('link');
+    preloadLink.rel = 'preload';
+    preloadLink.href = 'style.css';
+    preloadLink.as = 'style';
+    document.head.appendChild(preloadLink);
+    
+    // Lazy load images
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.dataset.src;
+            img.classList.remove('lazy');
+            imageObserver.unobserve(img);
+          }
+        });
+      });
+      
+      document.querySelectorAll('img[data-src]').forEach(img => {
+        imageObserver.observe(img);
+      });
+    }
+  </script>
 </body>
 </html>
 
