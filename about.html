@@ -3,10 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>درباره EsTeam</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  
+  <!-- SEO Meta Tags -->
+  <title>درباره EsTeam - تیم توسعه وب و برنامه نویسی | احسان اسماعیلی</title>
+  <meta name="description" content="درباره تیم EsTeam و احسان اسماعیلی - برنامه نویس و توسعه دهنده وب متخصص در Python، Django، Flask، HTML، CSS، JavaScript. مهارت ها و تجربیات تیم.">
+  <meta name="keywords" content="درباره EsTeam, احسان اسماعیلی, برنامه نویس, توسعه دهنده وب, Python, Django, Flask, HTML, CSS, JavaScript, Bootstrap, مهارت های برنامه نویسی">
+  <meta name="author" content="احسان اسماعیلی - EsTeam">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Persian">
+  <meta name="revisit-after" content="7 days">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="درباره EsTeam - تیم توسعه وب و برنامه نویسی">
+  <meta property="og:description" content="درباره تیم EsTeam و احسان اسماعیلی - برنامه نویس و توسعه دهنده وب متخصص در Python، Django، Flask، HTML، CSS، JavaScript.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://esteamdev.ir/about.html">
+  <meta property="og:site_name" content="EsTeam">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:image" content="https://esteamdev.ir/project1.png">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="درباره EsTeam - تیم توسعه وب">
+  <meta name="twitter:description" content="درباره تیم EsTeam و احسان اسماعیلی - برنامه نویس و توسعه دهنده وب متخصص در Python، Django، Flask.">
+  <meta name="twitter:image" content="https://esteamdev.ir/project1.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://esteamdev.ir/about.html">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Gear.png">
+  <link rel="apple-touch-icon" href="Gear.png">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  
+  <!-- Critical CSS inline for faster loading -->
+  <style>
+    /* Critical CSS for above-the-fold content */
+    body { font-family: 'Vazirmatn', sans-serif; margin: 0; padding: 0; }
+    .navbar { background: rgba(10,10,10,0.95); border-bottom: 1px solid #00ff88; }
+    .about-section { background: rgba(255,255,255,0.02); border: 1px solid #1a1a1a; border-radius: 8px; padding: 3rem 2rem; margin: 3rem 0; }
+  </style>
+  
+  <!-- Stylesheets with async loading -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+  
+  <!-- Fallback for browsers that don't support media="print" -->
+  <noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </noscript>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "درباره EsTeam",
+    "description": "درباره تیم EsTeam و احسان اسماعیلی - برنامه نویس و توسعه دهنده وب",
+    "url": "https://esteamdev.ir/about.html",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "احسان اسماعیلی",
+      "jobTitle": "برنامه نویس و توسعه دهنده وب",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "EsTeam"
+      },
+      "knowsAbout": [
+        "Python",
+        "Django", 
+        "Flask",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "SQLite",
+        "Tkinter"
+      ],
+      "email": "esteam.website.dev@gmail.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/cpi-tiger-a33b5637b/",
+        "https://github.com/CPI-TIGER",
+        "https://discord.gg/wj2ReD8S"
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
@@ -41,9 +131,19 @@
   </nav>
   <div class="container">
     <section class="about-section about-unique mt-5 mb-5" id="about">
-      <div class="about-title">درباره <b style="color:#00ff88">EsTeam</b></div>
+      <h1 class="about-title">درباره <b style="color:#00ff88">تیم EsTeam</b> - متخصصان توسعه وب</h1>
       <div class="about-text">
-        <p>من احسان اسماعیلی برنامه نویس و توسعه دهنده وب هستم که به همراه تیم خود <b style="color:#00ff88">EsTeam</b> در زمینه طراحی و توسعه وب با استفاده از جدیدترین تکنولوژی ها و متدهای روز دنیا, وبسایت هایی مدرن, ریسپانسیو, واکنش گرا و چشم نواز خلق میکنیم.</p>
+        <h2>معرفی تیم EsTeam</h2>
+        <p>من <strong>احسان اسماعیلی</strong> بنیانگذار و رهبر <strong>تیم EsTeam</strong> هستم. تیم ما متخصص در زمینه طراحی و توسعه وب سایت با استفاده از جدیدترین تکنولوژی‌های برنامه نویسی و متدهای روز دنیا است. ما وب‌سایت‌هایی مدرن، ریسپانسیو، واکنش‌گرا و چشم‌نواز برای مشتریان خود طراحی و توسعه می‌دهیم.</p>
+        
+        <h3>چرا تیم EsTeam را انتخاب کنید؟</h3>
+        <ul>
+          <li><strong>تجربه و تخصص:</strong> سال‌ها تجربه در طراحی و توسعه وب</li>
+          <li><strong>تکنولوژی‌های مدرن:</strong> استفاده از جدیدترین فریم‌ورک‌ها و ابزارها</li>
+          <li><strong>طراحی ریسپانسیو:</strong> سازگار با تمام دستگاه‌ها و سایزهای صفحه</li>
+          <li><strong>بهینه‌سازی SEO:</strong> طراحی با در نظر گیری موتورهای جستجو</li>
+          <li><strong>پشتیبانی کامل:</strong> همراهی و پشتیبانی پس از تحویل پروژه</li>
+        </ul>
         
         <div class="leopard-container mt-4 mb-4">
           <div class="code-animation">
@@ -65,12 +165,39 @@
             <div class="typing-cursor"></div>
           </div>
         </div>
-        <h2 style="color: #00ff88;"><b>مهارت ها</b></h2>
-        <b style="color: #00ff88;">فرانت اند: </b> Html, css, js, bootstrap 4,5
-        <p></p>
-        <b style="color: #00ff88;">بک اند: </b> Python, DJango, Flask
-        <p></p>
-        <b style="color: #00ff88;">مسلط به: </b> SQLite, tkinter
+        
+        <h2 style="color: #00ff88;"><b>مهارت‌های تیم EsTeam در برنامه نویسی</b></h2>
+        
+        <h3><b style="color: #00ff88;">فرانت اند (Frontend):</b></h3>
+        <ul>
+          <li><strong>HTML5:</strong> ساختار استاندارد و معنایی</li>
+          <li><strong>CSS3:</strong> طراحی مدرن و انیمیشن‌های پیشرفته</li>
+          <li><strong>JavaScript:</strong> تعامل و عملکرد دینامیک</li>
+          <li><strong>Bootstrap 4 & 5:</strong> فریم‌ورک ریسپانسیو</li>
+        </ul>
+        
+        <h3><b style="color: #00ff88;">بک اند (Backend):</b></h3>
+        <ul>
+          <li><strong>Python:</strong> زبان برنامه نویسی قدرتمند</li>
+          <li><strong>Django:</strong> فریم‌ورک کامل و امن</li>
+          <li><strong>Flask:</strong> فریم‌ورک سبک و انعطاف‌پذیر</li>
+        </ul>
+        
+        <h3><b style="color: #00ff88;">پایگاه داده و ابزارهای مکمل:</b></h3>
+        <ul>
+          <li><strong>SQLite:</strong> پایگاه داده سبک و قابل حمل</li>
+          <li><strong>Tkinter:</strong> توسعه اپلیکیشن‌های دسکتاپ</li>
+        </ul>
+        
+        <h3>خدمات تیم EsTeam</h3>
+        <ul>
+          <li>طراحی و توسعه وب سایت‌های شرکتی</li>
+          <li>طراحی فروشگاه‌های آنلاین (E-commerce)</li>
+          <li>طراحی سایت‌های پرتفولیو و شخصی</li>
+          <li>بهینه‌سازی و نگهداری وب سایت‌های موجود</li>
+          <li>طراحی رابط کاربری (UI/UX)</li>
+        </ul>
+        
         <p><a href="index.html" class="portfolio-link mt-4">بازگشت به صفحه اصلی</a></p>
       </div>
     </section>
@@ -110,11 +237,14 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <!-- JavaScript with async loading for better performance -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" async></script>
+  <script src="script.js" async></script>
   <script>
     // Unique About page animation
-    document.querySelector('.about-unique').classList.add('reveal');
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector('.about-unique').classList.add('reveal');
+    });
   </script>
 </body>
 </html>
