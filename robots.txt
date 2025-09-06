@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://esteamdev.ir/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow all search engines to index all content
+Allow: /index.html
+Allow: /about.html
+Allow: /style.css
+Allow: /script.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+
+# Disallow admin or private areas (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Host
+Host: https://esteamdev.ir
